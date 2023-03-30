@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>About Me</title>
+    <style>
+      :root {
+        --primary-color: #e0ebeb;
+        --secondary-color: #a7bcb9;
+        --accent-color: #a2c11c;
+      }
+      h1 {
+        text-align: center;
+        font-size: 80px;
+        margin: 0 auto;
+      }
+      h2 {
+        text-align: center;
+        font-size: 35px;
+        margin: 0 auto;
+        font-style: italic;
+      }
+      a {
+        text-decoration: none;
+        color: var(--accent-color);
+      }
+      a:hover {
+        color: var(--secondary-color);
+      }
+
+      .email {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-size: 38px;
+      }
+
+      .words {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin: 1px;
+        padding: 15px;
+      }
+      .word {
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+        margin: 1px;
+        margin-left: 20px;
+        padding: 8px;
+      }
+      .time {
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        background-color: var(--secondary-color);
+        padding: 8px;
+      }
+
+      .image {
+        width: 250px;
+        height: 200px;
+        margin-top: 30px;
+        padding: 10px;
+        border: 2px solid #f1d18a;
+        border-radius: 5px;
+      }
+      .weather {
+        width: 250px;
+        height: 200px;
+        margin-top: 30px;
+        padding: 10px;
+        border: 2px solid #b1e4d5;
+        border-radius: 5px;
+      }
+      .wind {
+        width: 250px;
+        height: 200px;
+        margin-top: 30px;
+        padding: 10px;
+        border: 2px solid #a7bcb9;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #8ed2c9">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Yetunde A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#name">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>About Me</h1>
+    <h2>From Alberta, Canada</h2>
+    <div class="words">
+      <div class="time">
+        <p>
+          Hi there, My name is Yetunde Ajayi I live in Canada but I am
+          originally from Nigeria. I am an entrepreneur that love designing. I
+          am into T-shirts design and interior decors. I am also working towards
+          becoming a Front-End Developer because it is something that I have
+          passion for.
+          <br />
+        </p>
+      </div>
+      <div class="word">
+        <p>
+          I also like doing research and discovering new informations and ideas.
+          During my free time I like to spend it with my family most especially
+          with my kids. I also like to travel to discover new places, and I love
+          shopping. I have been training to become a Front-End Developer because
+          this is what I want to do and all thanks to Shecodes for giving me
+          that opportunity to learn and become what I want to be. Some of the
+          projects I worked on can be viewed below.
+        </p>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/code.png" class="image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="images/weather.png" class="weather" />
+        </div>
+        <div class="col-sm-4">
+          <img src="images/wind.png" class="wind" />
+        </div>
+      </div>
+    </div>
+
+    <div id="name" class="email">
+      <a href="mailto:hollatoksync@gmail.com">📩 Contact me</a>
+    </div>
+  </body>
+</html>
